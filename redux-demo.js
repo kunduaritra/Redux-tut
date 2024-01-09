@@ -26,7 +26,5 @@ const counterSubscriber = () => {
 
 store.subscribe(counterSubscriber);
 
-store.dispatch({ type: "increment", value: 5 });
-store.dispatch({ type: "increment", value: 5 });
-store.dispatch({ type: "increment", value: 5 });
-store.dispatch({ type: "decrement", value: 5 });
+store.dispatch({ type: "increment", value: 2 });
+store.dispatch({ type: "decrement", value: 2 });
